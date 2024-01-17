@@ -14,6 +14,13 @@
     width: 50%;
 }
 
+.menu{
+    margin-left: 9%;
+    margin-right: 5%;
+    background-color: #0031b9;
+    padding: 10px 0px 8px 0px;
+}
+
 .scroll{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -77,4 +84,46 @@
 .lista-trem{
     display: inline-flex;
     list-style-type: none;
+}
+
+a.button {
+    background: #0031b9;
+    color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 25px 20px;
+    position: relative;
+    font-weight: bold;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+a.button:hover {
+    background: #3591cf;
+    padding: 25px 40px;
+    text-decoration: underline;
+}
+
+a.button:active {
+    background: #2980b9;    
+}
+
+a.button:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+.cptm-map{
+    background-color: #a1a1a1;
+    width: 1040px; 
+    height: 1540px;
 }
